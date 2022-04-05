@@ -6,8 +6,18 @@
         </title>
     </head>
     <body>
+        
         {%body%}
+        
+        MariaDB/MySQLにシステム専用のユーザーを作成します。<br>
+        データベースへのアクセス情報を入力してください。<br>
+        (入力したユーザーは変更しません、入力したユーザで接続し新しくユーザーを作成します。)<br>
+        ユーザー名<input type="text" id="UserName"><br>
+        パスワード<input type="text" id="PassWD"><br>
+        接続先ホスト名(サーバ名/IPアドレス)<input type="text" id="HostName" value="localhost"><br>
+
         {%javascript%}
+
         </script>
     </body>
 </html>

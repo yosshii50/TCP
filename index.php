@@ -3,8 +3,8 @@
 $Title = "販売業務システム";
 
 $data = file_get_contents( "index.base.html" );
-$body = "内容";
-$javascript = "JS";
+$body = "";
+$javascript = "";
 
 
 
